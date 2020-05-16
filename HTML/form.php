@@ -18,8 +18,31 @@
   </head>
   <body>
     <h1>Rekindle-Linux</h1>
-    <h2>Bring Linux to your (jailbroken) Kindle</h2>
-    <p>Easily make any jailbroken kindle into an (almost) fully featured linux environment.</p>
+    <h2>Image Generation</h2>
+    <form>
+        <div class="form-group">
+            <label for="distroSelect">Linux Distro</label>
+            <select class="form-control" id="distroSelect">
+               <option value=0>Debian</option>
+               <option value=1>Ubuntu</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="sizeSelect">Image Size</label>
+            <select class="form-control" id="sizeSelect">
+               <option value=0.5>500 MB</option>
+               <option value=1>1 Gb</option>
+               <option value=1.5>1.5 Gb</option>
+               <option value=2>2 Gb</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="emailAddress">Email address</label>
+            <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div> 
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

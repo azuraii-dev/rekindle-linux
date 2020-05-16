@@ -1,5 +1,6 @@
 body {
   justify-content: center;
+  text-align: center;
   background-color: black;
   background-image: radial-gradient(
     rgba(18, 44, 128, 0.75), black 120%
@@ -60,8 +61,8 @@ body {
 }
 
 /* Portrait */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .form-container {
-      width: 90%;
+      width: 97%;
     }
 }

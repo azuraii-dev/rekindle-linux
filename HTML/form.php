@@ -10,43 +10,46 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="form.css"/>
     <title>Rekindle-Linux</title>
   </head>
   <body>
-    <h1>Rekindle-Linux</h1>
-    <h2>Image Generation</h2>
-    <form>
-        <div class="form-group">
-            <label for="distroSelect">Linux Distro</label>
-            <select class="form-control" id="distroSelect">
-               <option value=0>Debian</option>
-               <option value=1>Ubuntu</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="sizeSelect">Image Size</label>
-            <select class="form-control" id="sizeSelect">
-               <option value=0.5>500 MB</option>
-               <option value=1>1 Gb</option>
-               <option value=1.5>1.5 Gb</option>
-               <option value=2>2 Gb</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="emailAddress">Email address</label>
-            <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div> 
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    <div class="typewriter">
+    <h1 class="typewriter-text">Rekindle-Linux</h1>
+    </div>
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <h2>Image Generation</h2>
+                <label for="distroSelect">Linux Distro</label>
+                <select class="form-control" id="distroSelect">
+                <option value=0>Debian</option>
+                <option value=1>Ubuntu</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="sizeSelect">Image Size</label>
+                <select class="form-control" id="sizeSelect">
+                <option value=0.5>500 MB</option>
+                <option value=1>1 Gb</option>
+                <option value=1.5>1.5 Gb</option>
+                <option value=2>2 Gb</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="emailAddress">Email address</label>
+                <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div> 
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
-</html>
+</html> 

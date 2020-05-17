@@ -34,8 +34,8 @@
                 <select class="form-control" id="sizeSelect">
                 <option value=0.5>500 MB</option>
                 <option value=1>1 Gb</option>
-                <option value=1.5>1.5 Gb</option>
-                <option value=2>2 Gb</option>
+                <option value=2>1.5 Gb</option>
+                <option value=3>2 Gb</option>
                 </select>
             </div>
             <div class="form-group">
